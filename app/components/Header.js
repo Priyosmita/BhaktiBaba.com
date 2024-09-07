@@ -25,20 +25,20 @@ const Header = () => {
         {/* options in header */}
         <div className='flex flex-row'>
           <Link href='/' legacyBehavior>
-            <a className='flex items-center text-black text-xl pr-10'>
+            <a className='flex items-center text-[#f8604f] transform duration-200 hover:scale-105 hover:text-[#fcaa05] font-bold text-xl pr-10'>
               Puja Services
             </a>
           </Link>
           <Link href='/' legacyBehavior>
-            <a className='flex items-center text-black text-xl pr-10'>
+            <a className='flex items-center text-[#f8604f] transform duration-200 hover:scale-105 hover:text-[#fcaa05] font-bold text-xl pr-10'>
               Shop
             </a>
           </Link>
-          <Link href='/' legacyBehavior>
-            <a className='flex items-center text-black text-xl pr-10'>
+          {/* <Link href='/' legacyBehavior>
+            <a className='flex items-center text-[#f8604f] transform duration-200 hover:scale-105 hover:text-[#fcaa05] font-bold text-xl pr-10'>
               Goodies
             </a>
-          </Link>
+          </Link> */}
 
           {/* user account */}
           <Link href='/' legacyBehavior>
