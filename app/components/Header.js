@@ -8,12 +8,18 @@ import "../globals.css";
 const Header = () => {
   return (
     <div className='bg-white shadow-lg w-full top-0 z-10'>
-      <div className='flex flex-row items-center justify-between pt-5 pb-5'>
-        
-        <Link href='/' legacyBehavior>
-          <a className='flex items-center text-black text-xl pl-5'>
-            BhaktibabaLogo
-          </a>
+      <div className='flex flex-row items-center justify-between pt-3 pb-3'>
+      
+        <Link className='relative flex flex-row cursor-pointer transform duration-300 hover:scale-110 pl-5' href="/">
+          <div className='relative'>
+          <Image
+            src="/assets/logo.png"
+            alt="BhaktiBaba logo"
+            width={60}
+            height={70}
+          />
+          <p className='absolute inset-0 whitespace-nowrap text-black text-xl pt-6 z-20 top-1.5 left-3.5'>Bhaktibaba</p>
+          </div>
         </Link>
 
         {/* options in header */}
@@ -31,6 +37,13 @@ const Header = () => {
           <Link href='/' legacyBehavior>
             <a className='flex items-center text-black text-xl pr-10'>
               Goodies
+            </a>
+          </Link>
+
+          {/* user account */}
+          <Link href='/' legacyBehavior>
+            <a className='flex items-center text-black text-xl pr-10'>
+              Acc
             </a>
           </Link>
 
