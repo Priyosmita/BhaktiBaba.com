@@ -1,0 +1,4 @@
+Saffron in logo: f8604f
+Yellow in logo: #fcdf05
+
+Hover Yellow: fcaa05

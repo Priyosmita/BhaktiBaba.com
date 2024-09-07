@@ -18,7 +18,7 @@ const Header = () => {
             width={60}
             height={70}
           />
-          <p className='absolute inset-0 whitespace-nowrap text-black text-xl pt-6 z-20 top-1.5 left-3.5'>Bhaktibaba</p>
+          <p className='absolute inset-0 whitespace-nowrap text-[#f8604f] transform duration-200 hover:text-[#fcaa05] font-bold text-xl pt-6 z-20 top-1.5 left-3.5'>Bhaktibaba</p>
           </div>
         </Link>
 
