@@ -1,4 +1,4 @@
-Saffron in logo: f8604f
-Yellow in logo: #fcdf05
+Saffron in logo: ff7f2a
+Yellow in logo: ffc200
 
 Hover Yellow: fcaa05
