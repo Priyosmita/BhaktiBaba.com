@@ -35,3 +35,8 @@ body {
     text-wrap: balance;
   }
 }
+
+/* carousel in homepage: to remove unecessary details */
+.carousel .carousel-status {
+  display: none;
+}
