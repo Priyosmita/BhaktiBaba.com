@@ -12,7 +12,7 @@ const customCarousel = () => {
       showIndicators={true}
       interval={3000}>
       <div>
-        <img src="\assets\carousel1.mp4" alt="Slide 1" />
+        <video src="\assets\carousel1.mp4" autoPlay loop muted playsInline alt="Slide 1" />
       </div>
       <div>
         <img src="\assets\IMG_20240325_101844.jpg" alt="Slide 2" />
