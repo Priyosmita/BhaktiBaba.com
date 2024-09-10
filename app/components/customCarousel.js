@@ -8,8 +8,8 @@ const customCarousel = () => {
       showThumbs={false}
       autoPlay
       infiniteLoop
-      showArrows={false}
-      showIndicators={false}
+      showArrows={true}
+      showIndicators={true}
       interval={3000}>
       <div>
         <img src="\assets\carousel1.mp4" alt="Slide 1" />
