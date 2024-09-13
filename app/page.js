@@ -3,7 +3,7 @@
 import React from 'react'
 // components
 import Header from './components/Header';
-import CustomCarousel from './components/customCarousel';
+import customCarousel from './components/customCarousel';
 
 import './globals.css'
 
@@ -11,7 +11,7 @@ const page = () => {
   return (
     <>
     <Header/>
-    <CustomCarousel/>
+    <customCarousel/>
     {/* <Carousel showThumbs={false} autoPlay>
 
     </Carousel> */}
