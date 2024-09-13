@@ -39,7 +39,7 @@ const renderArrowNext = (onClickHandler, hasNext, label) =>
     </button>
   );
 
-const customCarousel = () => {
+const CarouselCustom = () => {
   return (
     <Carousel
       showThumbs={false}
@@ -63,4 +63,4 @@ const customCarousel = () => {
   )
 }
 
-export default customCarousel
+export default CarouselCustom
