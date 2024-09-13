@@ -3,7 +3,7 @@
 import React from 'react'
 // components
 import Header from './components/Header';
-import CustomCarousel from './components/CustomCarousel';
+import CustomCarousel from './components/customCarousel';
 
 import './globals.css'
 
