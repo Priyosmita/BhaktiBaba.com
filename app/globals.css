@@ -66,3 +66,8 @@ body {
 .text-shadow {
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
 }
+
+/* Hiding scrollbar */
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none; 
+}

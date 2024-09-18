@@ -15,7 +15,7 @@ const Footer = () => {
     };
 
     return (
-        <footer className='relative w-full h-[52vh]'>
+        <footer className='relative w-full h-[58vh]'>
             {/* Background image */}
             <Image
                 src="/assets/32.png"
