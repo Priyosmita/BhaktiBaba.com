@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import {  Nunito } from "next/font/google";  // Import Nunito as well
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// Initialize both fonts
+const nunito = Nunito({ subsets: ["latin"], weight: ["200", "400", "700", "900"] }); // Specify weights
 
 export const metadata: Metadata = {
   title: "Bhakti Baba",
@@ -16,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={nunito.className}>
+        {children}
+      </body>
     </html>
   );
 }

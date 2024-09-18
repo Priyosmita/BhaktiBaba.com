@@ -27,16 +27,37 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  font-family: 'Nunito'; /* Updated font-family */
+  font-family: 'Nunito', sans-serif; /* Ensure Nunito applies globally */
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+
+  /* Nunito custom font-weight classes */
+  .nunito-light {
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+  }
+
+  .nunito-regular {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+  }
+
+  .nunito-bold {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+  }
+
+  .nunito-extrabold {
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+  }
 }
 
-/* carousel in homepage: to remove unecessary details */
+/* carousel in homepage: to remove unnecessary details */
 .carousel .carousel-status {
   display: none;
 }

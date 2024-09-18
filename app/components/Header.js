@@ -3,55 +3,40 @@
 import React, { useEffect, useState } from 'react'
 import Image from "next/image";
 import Link from "next/link";
+import { LuUserCircle2 } from "react-icons/lu";
 import "../globals.css";
 
 const Header = () => {
   return (
-    <div className='bg-white shadow-lg w-full top-0 z-10'>
-      <div className='flex flex-row items-center justify-between pt-1 pb-1'>
-
-        {/* <Link className='relative flex flex-row cursor-pointer transform duration-300 hover:scale-110 pl-5' href="/"> */}
-        {/* <div className='relative'>
-          <Image
-            src="/assets/logo.png"
-            alt="BhaktiBaba logo"
-            width={60}
-            height={70}
-          />
-          <p className='absolute inset-0 whitespace-nowrap text-[#f8604f] transform duration-200 hover:text-[#fcaa05] font-bold text-xl pt-6 z-20 top-1.5 left-3.5'>Bhaktibaba</p>
-          </div> */}
-        <Link className='flex flex-row cursor-pointer transform duration-150 hover:scale-105 pl-10' href="/">
+    <div className='bg-transparent w-full top-0 z-10'>
+      <div className='flex justify-between items-center pt-1 pb-1'>
+        <Link className='flex flex-row cursor-pointer transform duration-150 hover:scale-105 pl-5' href="/">
           <Image
             src="/assets/biglogo.png"
             alt="BhaktiBaba logo"
-            width={270}
-            height={100}
+            width={240}
+            height={70}
           />
         </Link>
 
         {/* options in header */}
-        <div className='flex flex-row'>
-          <Link href='/' legacyBehavior>
-            <a className='flex items-center text-[#ff7f2a] transform duration-150 hover:scale-105 hover:text-[#ffc200] font-bold text-xl pr-10'>
-              Puja Services
-            </a>
+        <div className='flex space-x-20'>
+          <Link href='/' className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semiboldbold text-xl pr-10'>
+            Bookings
           </Link>
-          <Link href='/' legacyBehavior>
-            <a className='flex items-center text-[#ff7f2a] transform duration-150 hover:scale-105 hover:text-[#ffc200] font-bold text-xl pr-10'>
-              Shop
-            </a>
+          <Link href='/' className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semiboldbold text-xl pr-10'>
+            Dates
           </Link>
-          {/* <Link href='/' legacyBehavior>
-            <a className='flex items-center text-[#f8604f] transform duration-200 hover:scale-105 hover:text-[#fcaa05] font-bold text-xl pr-10'>
-              Goodies
-            </a>
-          </Link> */}
+          <Link href='/' className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semiboldbold text-xl pr-10'>
+            Shop
+          </Link>
+          <Link href='/' className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semiboldbold text-xl pr-10'>
+            Goodies
+          </Link>
 
           {/* user account */}
-          <Link href='/' legacyBehavior>
-            <a className='flex items-center text-black text-xl pr-10'>
-              Acc
-            </a>
+          <Link href='/' className='pl-72 pr-5 flex items-center text-white text-4xl transform duration-150 hover:scale-105 hover:text-[#ff7f2a]'>
+            <LuUserCircle2 />
           </Link>
 
         </div>

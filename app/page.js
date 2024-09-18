@@ -11,10 +11,7 @@ const page = () => {
   return (
     <>
     <Header/>
-    <CarouselCustom/>
-    {/* <Carousel showThumbs={false} autoPlay>
-
-    </Carousel> */}
+    {/* <CarouselCustom/> */}
     </>
   )
 }
