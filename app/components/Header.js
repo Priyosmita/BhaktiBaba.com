@@ -33,9 +33,8 @@ const Header = () => {
 
   return (
     <div
-      className={`${
-        isVisible ? 'top-0' : '-top-20'
-      } fixed bg-transparent w-full z-10 transition-all duration-300`}
+      className={`${isVisible ? 'top-0' : '-top-20'
+        } fixed bg-transparent w-full z-10 transition-all duration-300`}
     >
       <div className='flex justify-between items-center pt-1 pb-1'>
         <Link
@@ -51,28 +50,28 @@ const Header = () => {
         </Link>
 
         {/* options in header */}
-        <div className='flex space-x-20'>
+        <div className='flex space-x-36'>
           <Link
             href='/'
-            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semibold text-shadow text-xl pr-10'
+            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semibold text-shadow text-xl'
           >
             Bookings
           </Link>
           <Link
             href='/'
-            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semibold text-shadow text-xl pr-10'
+            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semibold text-shadow text-xl'
           >
             Dates
           </Link>
           <Link
             href='/'
-            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-bold text-shadow text-xl pr-10'
+            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-bold text-shadow text-xl'
           >
             Shop
           </Link>
           <Link
             href='/'
-            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semibold text-shadow text-xl pr-10'
+            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semibold text-shadow text-xl'
           >
             Goodies
           </Link>
