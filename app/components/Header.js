@@ -36,10 +36,10 @@ const Header = () => {
       className={`${isVisible ? 'top-0' : '-top-20'
         } fixed bg-transparent w-full z-10 transition-all duration-300`}
     >
-      <div className='flex justify-between items-center pt-1 pb-1'>
+      <div className='flex justify-between items-center pt-3 pb-1'>
         <Link
-          className='flex flex-row cursor-pointer transform duration-150 hover:scale-105 pl-5'
-          href='/'
+          className='flex flex-row cursor-pointer transform duration-150 hover:scale-105 ml-5'
+          href='\'
         >
           <Image
             src='/assets/biglogo.png'
@@ -75,15 +75,14 @@ const Header = () => {
           >
             Goodies
           </Link>
-
-          {/* user account */}
-          <Link
+        </div>
+        {/* user account */}
+        <Link
             href='/'
-            className='pl-72 pr-5 flex items-center text-white text-4xl transform duration-150 hover:scale-105 hover:text-[#ff7f2a]'
+            className='ml-48 mr-5 flex items-center text-white text-4xl transform duration-150 hover:scale-105 hover:text-[#ff7f2a]'
           >
             <LuUserCircle2 />
           </Link>
-        </div>
       </div>
     </div>
   );
