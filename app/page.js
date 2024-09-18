@@ -4,6 +4,7 @@ import React from 'react'
 // components
 import Header from './components/Header';
 import CarouselCustom from './components/CarouselCustom'
+import Footer from './components/Footer'; 
 
 import './globals.css'
 
@@ -12,6 +13,7 @@ const page = () => {
     <>
     <Header/>
     {/* <CarouselCustom/> */}
+    <Footer/>
     </>
   )
 }
