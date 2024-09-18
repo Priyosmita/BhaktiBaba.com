@@ -13,6 +13,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+
+      width: {
+        "97":"32rem" // big logo name in footer
+      }
     },
   },
   plugins: [],
