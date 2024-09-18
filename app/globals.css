@@ -61,3 +61,8 @@ body {
 .carousel .carousel-status {
   display: none;
 }
+
+/* text shadow black */
+.text-shadow {
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
