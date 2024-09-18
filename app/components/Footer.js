@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Footer = () => {
     return (
         <div className='w-full bottom-0'>
-            <div className="relative w-full h-[70vh]"> 
+            <div className="relative w-full h-[60vh]"> 
                 <Image
                     src="/assets/32.png"
                     alt="Footer Mandala"
