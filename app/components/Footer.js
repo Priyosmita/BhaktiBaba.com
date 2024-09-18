@@ -26,7 +26,8 @@ const Footer = () => {
             />
             {/* Black overlay */}
             <div className="absolute inset-0 bg-black" style={{ opacity: 0.5, zIndex: 2 }}></div>
-            {/* Logo */}
+
+            {/* Logo in footer */}
             <div className="absolute inset-0 flex justify-center items-center z-10">
                 <div className='flex flex-col'>
                 <Link href="/" className='pl-3 flex justify-center'>
@@ -47,8 +48,8 @@ const Footer = () => {
                         className='cursor-default'
                     />
                 </div>
-                
             </div>
+            
         </footer>
     );
 }
