@@ -52,7 +52,7 @@ const Footer = () => {
         <Link href="/" className='text-shadow text-white z-10 transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-40'>Privacy Policy</Link>
         <Link href="/" className='text-shadow text-white z-10 transition duration-150 hover:scale-110 hover:text-[#ff7f2a]'>Terms & Conditions</Link>
         <Link href="/" className='text-shadow text-white z-10 transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-28'>About Us</Link>
-        <div className='text-shadow text-white z-10 cursor-default transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-24 fontforphonemail'>Phone:</div>
+        <div className='text-shadow text-white z-10 cursor-default transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-20 fontforphonemail'>Phone:</div>
         <div className='text-shadow text-white z-10 cursor-default transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-16 fontforphonemail'>Mail:</div>
       </div>
 
