@@ -71,6 +71,16 @@ body {
 html::-webkit-scrollbar, body::-webkit-scrollbar {
   display: none; 
 }
+body {
+  -ms-overflow-style: none; /* Hide scrollbar on IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar on Firefox */
+}
+/* Media query to hide scrollbar specifically on mobile devices */
+@media (max-width: 768px) {
+  html, body {
+    overflow: hidden; /* Disables scrolling but hides the scrollbar */
+  }
+}
 
 /* Mandala repetition */
 .mandala-strip {
