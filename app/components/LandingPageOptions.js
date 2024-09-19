@@ -8,7 +8,7 @@ const LandingPageOptions = () => {
         <div className='min-h-screen overflow-hidden'>
             <Image
                 src="/assets/bg landing.png"
-                alt="BhaktiBaba logo"
+                alt="bg image"
                 layout="fill" // Makes the image span its container
                 objectFit="cover"
             />

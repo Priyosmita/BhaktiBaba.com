@@ -57,7 +57,7 @@ const Footer = () => {
       </div>
 
       {/* Right options */}
-      <div className='absolute flex flex-col gap-y-16 pt-28 right-0 z-10 pr-36 text-2xl options-right'>
+      <div className='absolute flex flex-col gap-y-16 pt-24 right-0 z-10 pr-36 text-2xl options-right'>
         <Link href="/" className='text-shadow text-white transition duration-150 hover:scale-110 hover:text-[#ff7f2a]'>Instagram</Link>
         <Link href="/" className='text-shadow text-white transition duration-150 hover:scale-110 hover:text-[#ff7f2a]'>Facebook</Link>
         <Link href="/" className='text-shadow text-white transition duration-150 hover:scale-125 hover:text-[#ff7f2a] w-4'>X</Link>
