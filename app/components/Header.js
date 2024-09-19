@@ -35,9 +35,8 @@ const Header = () => {
 
   return (
     <header
-      className={`${
-        isVisible ? 'top-0' : '-top-20'
-      } fixed bg-transparent w-full z-10 transition-all duration-300`}
+      className={`${isVisible ? 'top-0' : '-top-20'
+        } fixed bg-transparent w-full z-10 transition-all duration-300`}
     >
       <div className='flex justify-between items-center pt-3 pb-1'>
         <Link
@@ -101,9 +100,8 @@ const Header = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden fixed top-0 right-0 h-full w-3/4 bg-black text-white transition-transform transform ${
-          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
-        }`}
+        className={`lg:hidden fixed top-0 right-0 h-full w-3/4 bg-black text-white transition-transform transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+          }`}
         style={{ transition: 'transform 0.3s ease-in-out' }}
       >
         <div className='flex flex-col items-center mt-20'>
