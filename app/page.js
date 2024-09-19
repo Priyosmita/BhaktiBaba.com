@@ -9,7 +9,6 @@ import LandingPageOptions from './components/LandingPageOptions';
 import MandalaStrip from './components/MandalaStrip';
 import Slider from './components/Slider';
 
-
 import './globals.css'
 
 const page = () => {
