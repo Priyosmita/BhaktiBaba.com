@@ -13,7 +13,7 @@ import './globals.css'
 
 const page = () => {
   return (
-    <div div className='flex flex-col min-h-screen'>
+    <div div className='flex flex-col'>
       <Header />
       {/* <Slider /> */}
       {/* <CarouselCustom /> */}
