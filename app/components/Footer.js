@@ -19,18 +19,19 @@ const Footer = () => {
       <div className="absolute inset-0 bg-black" style={{ opacity: 0.6, zIndex: 2 }}></div>
 
       {/* icon for mobile view */}
-      <Link href="/" className='pl-3 pt-5 flex justify-center items-center'>
+      <Link href="\" className='pl-3 pt-5 flex justify-center items-center'>
         <img
           src="/assets/biglogo.png"
           alt="logo"
           className='w-97 cursor-default biglogo-img logohidden'
+          onClick={scrollToTop}
         />
       </Link>
 
       {/* Logo in footer */}
       <div className="absolute inset-0 flex justify-center items-center z-10 logomonitor-img">
         <div className='flex flex-col items-center'>
-          <Link href="/" className='pl-3 pt-5 flex justify-center items-center'>
+          <Link href="\" className='pl-3 pt-5 flex justify-center items-center'>
             <img
               src="/assets/logo.png"
               alt="logo"
@@ -51,8 +52,8 @@ const Footer = () => {
         <Link href="/" className='text-shadow text-white z-10 transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-40'>Privacy Policy</Link>
         <Link href="/" className='text-shadow text-white z-10 transition duration-150 hover:scale-110 hover:text-[#ff7f2a]'>Terms & Conditions</Link>
         <Link href="/" className='text-shadow text-white z-10 transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-28'>About Us</Link>
-        <div className='text-shadow text-white z-10 cursor-default transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-20 fontforphonemail'>Phone:</div>
-        <div className='text-shadow text-white z-10 cursor-default transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-16 fontforphonemail'>Mail:</div>
+        <Link href="/" className='text-shadow text-white z-10 cursor-default transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-20 fontforphonemail'>Phone:</Link>
+        <Link href="/" className='text-shadow text-white z-10 cursor-default transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-16 fontforphonemail'>Mail:</Link>
       </div>
 
       {/* Right options */}
