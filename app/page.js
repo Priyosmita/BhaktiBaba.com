@@ -17,7 +17,7 @@ const page = () => {
       <Header />
       {/* <CarouselCustom /> */}
       <MandalaStrip />
-      {/* <LandingPageOptions/> */}
+      <LandingPageOptions/>
       <Footer />
     </div>
   )
