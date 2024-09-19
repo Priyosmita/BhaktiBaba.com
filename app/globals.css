@@ -57,17 +57,20 @@ body {
   }
 }
 
+
 /* carousel in homepage: to remove unnecessary details */
 .carousel .carousel-status {
   display: none;
 }
+
 
 /* text shadow black */
 .text-shadow {
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
-/* Hiding scrollbar */
+
+/* Hiding scrollbar for desktop and larger screens */
 html::-webkit-scrollbar, body::-webkit-scrollbar {
   display: none; 
 }
@@ -75,12 +78,14 @@ body {
   -ms-overflow-style: none; /* Hide scrollbar on IE and Edge */
   scrollbar-width: none; /* Hide scrollbar on Firefox */
 }
-/* Media query to hide scrollbar specifically on mobile devices */
+/* Media query to hide scrollbar on mobile devices */
 @media (max-width: 768px) {
   html, body {
-    overflow: hidden; /* Disables scrolling but hides the scrollbar */
+    -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS */
+    overflow: auto; /* Allows scrolling but hides scrollbar */
   }
 }
+
 
 /* Mandala repetition */
 .mandala-strip {
