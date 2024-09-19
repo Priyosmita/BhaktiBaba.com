@@ -80,19 +80,17 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   min-height: 100px; /* Default height for larger screens */
   width: 100%; /* Make it span full width */
 }
-
 /* Media query for screens smaller than 768px (tablets, phones) */
 @media (max-width: 768px) {
   .mandala-strip {
-      min-height: 80px; /* Reduce the height for tablet view */
+      min-height: 50px; /* Reduce the height for tablet view */
       background-size: auto 100%; /* Ensure the background image stays proportional */
   }
 }
-
 /* Media query for screens smaller than 480px (phones) */
 @media (max-width: 480px) {
   .mandala-strip {
-      min-height: 25px; /* Reduce the height further for mobile phones */
+      min-height: 50px; /* Reduce the height further for mobile phones */
       background-size: auto 100%; /* Maintain proportion */
   }
 }
