@@ -1,18 +1,21 @@
-import React from 'react'
+import React from 'react';
 import Link from 'next/link';
 import "../globals.css";
 
 const LandingPageOptions = () => {
     return (
-        <div className='min-h-80 -z-40'>
-            <img
-                src="/assets/bg landing.png"
-                alt="bg image"
-                layout="fill" // Makes the image span its container
-                objectFit="cover"
-            />
+        <div 
+            className='min-h-[215vh] bg-cover bg-center' // Adjusted height using Tailwind-style classes
+            style={{
+                backgroundImage: 'url("/assets/bg landing.png")', // Correct path for background image
+                backgroundSize: 'cover', // Makes the image cover the container
+                backgroundPosition: 'center', // Centers the image within the div
+                backgroundRepeat: 'no-repeat', // Prevents repeating the image
+            }}
+        >
+            {/* You can add other elements/content here */}
         </div>
-    )
+    );
 }
 
-export default LandingPageOptions
+export default LandingPageOptions;
