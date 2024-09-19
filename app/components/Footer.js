@@ -66,47 +66,48 @@ const Footer = () => {
 
       {/* Media Queries */}
       <style jsx>{`
-                .logohidden {
-                    display:none;
-                }
-                @media (max-width: 768px) {
-                    footer {
-                        height: auto;
-                    }
-                    .options-left {
-                        position: relative;
-                        padding-left: 0;
-                        padding-top: 15px;  
-                        display: flex;
-                        align-items: center; 
-                        justify-content: center; 
-                        flex-direction: column;                     
-                        gap: 25px;
-                        padding-bottom: 25px;
-                        font-size: 1rem;
-                    }
-                    .fontforphonemail {
-                        font-size: 1rem;
-                    }
-                    .options-right {
-                        display: none;
-                    }
-                    .logomonitor-img {
-                        display:none;
-                    }
-                    .biglogo-img {
-                        display: flex; /* Show the biglogo on mobile */
-                        justify-content: center;
-                        padding-right: 10px;
-                        width: 300px;
-                        height: auto;
-                        z-index: 10;
-                    }
-                    .text-shadow {
-                        font-size: 1.5rem;
-                    }
-                }
-            `}</style>
+        .logohidden {
+          display:none;
+        }
+        @media (max-width: 768px) {
+          footer {
+            height: auto;
+          }
+          .options-left {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Horizontally center items */
+            justify-content: center; /* Vertically center items */
+            gap: 25px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            padding-left: 0px;
+            font-size: 1rem;
+            text-align: center; 
+          }
+          .fontforphonemail {
+            font-size: 1rem;
+          }
+          .options-right {
+            display: none;
+          }
+          .logomonitor-img {
+            display:none;
+          }
+          .biglogo-img {
+            display: flex; /* Show the biglogo on mobile */
+            justify-content: center;
+            padding-right: 10px;
+            width: 300px;
+            height: auto;
+            z-index: 10;
+          }
+          .text-shadow {
+            font-size: 1.5rem;
+          }
+        }
+      `}</style>
     </footer>
   );
 }
