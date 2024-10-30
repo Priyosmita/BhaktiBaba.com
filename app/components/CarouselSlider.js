@@ -1,18 +1,13 @@
 import Carousel from 'react-bootstrap/Carousel';
-import React from 'react'
+import React from 'react';
 
 const CarouselSlider = () => {
     return (
-        <div>
+        <div className="carousel-container">
             <Carousel>
                 <Carousel.Item>
                     <video
-                        style={{
-                            height: '100vh',
-                            width: '100%',
-                            objectFit: 'cover'
-                        }}
-                        className="d-block w-100"
+                        className="d-block w-100 carousel-video"
                         autoPlay
                         loop
                         muted
@@ -27,10 +22,9 @@ const CarouselSlider = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
 
-
                 <Carousel.Item>
-                    <img style={{ height: '100vh' }}
-                        className="d-block w-100"
+                    <img
+                        className="d-block w-100 carousel-image"
                         src="/assets/Desig.png"
                         alt="First slide"
                     />
@@ -41,8 +35,8 @@ const CarouselSlider = () => {
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img style={{ height: '100vh' }}
-                        className="d-block w-100"
+                    <img
+                        className="d-block w-100 carousel-image"
                         src="/assets/Designer (2).png"
                         alt="Second slide"
                     />
@@ -53,8 +47,8 @@ const CarouselSlider = () => {
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img style={{ height: '100vh' }}
-                        className="d-block w-100"
+                    <img
+                        className="d-block w-100 carousel-image"
                         src="/assets/Designer (4).png"
                         alt="Third slide"
                     />
@@ -67,8 +61,8 @@ const CarouselSlider = () => {
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img style={{ height: '100vh' }}
-                        className="d-block w-100"
+                    <img
+                        className="d-block w-100 carousel-image"
                         src="/assets/slider music.png"
                         alt="Fourth slide"
                     />
@@ -80,8 +74,43 @@ const CarouselSlider = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-        </div>
-    )
-}
 
-export default CarouselSlider
+            <style jsx>{`
+                .carousel-container {
+                    position: relative;
+                }
+
+                .carousel-video,
+                .carousel-image {
+                    width: 100%;
+                    object-fit: cover; /* Maintain aspect ratio */
+                }
+
+                .carousel-video {
+                    height: 90vh; /* Default height for larger screens */
+                }
+
+                .carousel-image {
+                    height: 90vh; /* Default height for larger screens */
+                }
+
+                /* Responsive Styles */
+                @media (max-width: 768px) { /* For tablets */
+                    .carousel-video,
+                    .carousel-image {
+                        height: 70vh; /* Adjust height for tablets */
+                    }
+                }
+
+                @media (max-width: 480px) { /* For mobile devices */
+                    .carousel-video,
+                    .carousel-image {
+                        height: 60vh; /* Adjust height for mobile */
+                    }
+                }
+            `}</style>
+        </div>
+    );
+};
+
+export default CarouselSlider;
