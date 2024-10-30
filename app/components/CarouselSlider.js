@@ -6,6 +6,29 @@ const CarouselSlider = () => {
         <div>
             <Carousel>
                 <Carousel.Item>
+                    <video
+                        style={{
+                            height: '100vh',
+                            width: '100%',
+                            objectFit: 'cover'
+                        }}
+                        className="d-block w-100"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                    >
+                        <source src="/assets/carousel1.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                    <Carousel.Caption>
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+
+                <Carousel.Item>
                     <img style={{ height: '100vh' }}
                         className="d-block w-100"
                         src="/assets/Desig.png"
