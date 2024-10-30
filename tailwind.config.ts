@@ -19,7 +19,7 @@ const config: Config = {
       },
 
       space: {
-        "97":"50rem" // gap b/w img and writeup in landing page options
+        "97":"40rem" // gap b/w img and writeup in landing page options
       },
     },
   },
