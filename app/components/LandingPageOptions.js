@@ -18,7 +18,7 @@ const LandingPageOptions = () => {
 
                 <div className="absolute inset-0 flex flex-col items-center justify-center space-y-44">
 
-                    <div className='flex flex-row'>
+                    <div className='flex flex-row space-x-97'>
                         <span className='transform transition duration-300 hover:scale-125'>
                             <img src="/assets/Mask group 1.png/" alt="Online Booking" className="h-80 w-80 mx-auto" />
                         </span>

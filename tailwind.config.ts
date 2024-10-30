@@ -16,7 +16,11 @@ const config: Config = {
 
       width: {
         "97":"32rem" // big logo name in footer
-      }
+      },
+
+      space: {
+        "97":"50rem" // gap b/w img and writeup in landing page options
+      },
     },
   },
   plugins: [],
