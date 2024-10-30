@@ -65,25 +65,25 @@ const Header = () => {
         <div className='hidden lg:flex space-x-36'>
           <Link
             href='/'
-            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semibold text-shadow text-xl'
+            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semibold text-shadow no-underline text-xl'
           >
             Bookings
           </Link>
           <Link
             href='/'
-            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semibold text-shadow text-xl'
+            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semibold text-shadow no-underline text-xl'
           >
             Dates
           </Link>
           <Link
             href='/'
-            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-bold text-shadow text-xl'
+            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-bold text-shadow no-underline text-xl'
           >
             Shop
           </Link>
           <Link
             href='/'
-            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semibold text-shadow text-xl'
+            className='flex items-center text-[#ffffff] transform duration-150 hover:scale-105 hover:text-[#ff7f2a] font-semibold text-shadow no-underline text-xl'
           >
             Goodies
           </Link>

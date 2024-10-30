@@ -49,19 +49,19 @@ const Footer = () => {
 
       {/* Left options */}
       <div className='absolute flex flex-col gap-y-14 pl-36 pt-16 text-2xl options-left'>
-        <Link href="/" className='text-shadow text-white z-10 transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-40'>Privacy Policy</Link>
-        <Link href="/" className='text-shadow text-white z-10 transition duration-150 hover:scale-110 hover:text-[#ff7f2a]'>Terms & Conditions</Link>
-        <Link href="/" className='text-shadow text-white z-10 transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-28'>About Us</Link>
-        <Link href="/" className='text-shadow text-white z-10 cursor-default transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-20 fontforphonemail'>Phone:</Link>
-        <Link href="/" className='text-shadow text-white z-10 cursor-default transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-16 fontforphonemail'>Mail:</Link>
+        <Link href="/" className='text-shadow text-white z-10 transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-40 no-underline'>Privacy Policy</Link>
+        <Link href="/" className='text-shadow text-white z-10 transition duration-150 hover:scale-110 hover:text-[#ff7f2a] no-underline'>Terms & Conditions</Link>
+        <Link href="/" className='text-shadow text-white z-10 transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-28 no-underline'>About Us</Link>
+        <Link href="/" className='text-shadow text-white z-10 cursor-default transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-20 fontforphonemail no-underline'>Phone:</Link>
+        <Link href="/" className='text-shadow text-white z-10 cursor-default transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-16 fontforphonemail no-underline'>Mail:</Link>
       </div>
 
       {/* Right options */}
       <div className='absolute flex flex-col gap-y-16 pt-24 right-0 z-10 pr-36 text-2xl options-right'>
-        <Link href="/" className='text-shadow text-white transition duration-150 hover:scale-110 hover:text-[#ff7f2a]'>Instagram</Link>
-        <Link href="/" className='text-shadow text-white transition duration-150 hover:scale-110 hover:text-[#ff7f2a]'>Facebook</Link>
-        <Link href="/" className='text-shadow text-white transition duration-150 hover:scale-125 hover:text-[#ff7f2a] w-4'>X</Link>
-        <Link href="/" className='text-shadow text-white transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-6'>LinkedIn</Link>
+        <Link href="/" className='text-shadow text-white transition duration-150 hover:scale-110 hover:text-[#ff7f2a] no-underline'>Instagram</Link>
+        <Link href="/" className='text-shadow text-white transition duration-150 hover:scale-110 hover:text-[#ff7f2a] no-underline'>Facebook</Link>
+        <Link href="/" className='text-shadow text-white transition duration-150 hover:scale-125 hover:text-[#ff7f2a] w-4 no-underline'>X</Link>
+        <Link href="/" className='text-shadow text-white transition duration-150 hover:scale-110 hover:text-[#ff7f2a] w-6 no-underline'>LinkedIn</Link>
       </div>
 
       {/* Media Queries */}
