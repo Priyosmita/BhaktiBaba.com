@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import {  Nunito } from "next/font/google";  // Import Nunito as well
 import "./globals.css";
 
+
 // Initialize both fonts
 const nunito = Nunito({ subsets: ["latin"], weight: ["200", "400", "700", "900"] }); // Specify weights
 
