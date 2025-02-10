@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 import {  Nunito } from "next/font/google";  // Import Nunito as well
 import "./globals.css";
